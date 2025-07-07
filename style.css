@@ -1,0 +1,138 @@
+/* General styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  background: linear-gradient(45deg, #4a90e2, #357ABD);
+  color: white;
+  text-align: center;
+  padding: 4rem 1rem;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.button {
+  background-color: #fff;
+  color: #4a90e2;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  display: inline-block;
+  transition: background 0.3s;
+}
+
+.button:hover {
+  background-color: #eee;
+}
+
+/* Sections */
+section {
+  padding: 3rem 1rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+section h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+/* Features */
+.feature-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.feature {
+  flex: 1 1 250px;
+  background: #f8f8f8;
+  padding: 1.5rem;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Pricing */
+.pricing-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.card {
+  flex: 1 1 250px;
+  background: #f8f8f8;
+  padding: 2rem;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.card .price {
+  font-size: 1.5rem;
+  margin: 1rem 0;
+  color: #4a90e2;
+}
+
+.card ul {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+}
+
+.card ul li {
+  margin-bottom: 0.5rem;
+}
+
+/* Testimonials */
+blockquote {
+  max-width: 700px;
+  margin: 1rem auto;
+  background: #f1f1f1;
+  padding: 1.5rem;
+  border-left: 5px solid #4a90e2;
+  font-style: italic;
+  border-radius: 4px;
+}
+
+/* Countdown */
+#countdown {
+  text-align: center;
+  background: #4a90e2;
+  color: white;
+}
+
+#countdown h2 {
+  margin-bottom: 1rem;
+}
+
+#timer {
+  font-size: 2rem;
+}
+
+/* Footer */
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
